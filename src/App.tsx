@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom"
+import { HashRouter as Router, Routes, Route, Link } from "react-router-dom"
 import { Menubar, MenubarMenu, MenubarTrigger } from "@/components/ui/menubar"
 import Resume from "./pages/Resume"
 import Spotify from "./pages/Spotify"
