@@ -7,7 +7,7 @@ const EXPERIENCE_DATA = [
   {
     company: "Edgewater Markets",
     title: "Software Engineering Intern",
-    dates: "Aug 2024 - Jan 2025",
+    dates: "Apr 2024 - Jan 2025",
     description: [
       "Traded in G10 currency pairs.",
       "Developed and executed code to run back-end tests.",
@@ -23,14 +23,14 @@ const EXPERIENCE_DATA = [
       "Organized and formatted raw data into parsable formats for analysis."
     ]
   },
-  {
-    company: "Putnam and Vine",
-    title: "Staff",
-    dates: "June 2022",
-    description: [
-      "Utilized web scraping tools to organize data into parsable formats."
-    ]
-  }
+  // {
+  //   company: "Putnam and Vine",
+  //   title: "Staff",
+  //   dates: "June 2022",
+  //   description: [
+  //     "Utilized web scraping tools to organize data into parsable formats."
+  //   ]
+  // }
 ]
 
 const PROJECTS_DATA = [
@@ -46,8 +46,19 @@ const PROJECTS_DATA = [
   },
   {
     name: "Personal Website",
-    tech: ["Node.js", "React", "Tailwind", "Vite","Shadcn UI"],
+    tech: ["Node.js", "React", "Tailwind", "Vite","Shadcn UI","Spotify API"],
     description: "Built a personal website using modern web technologies."
+  },
+  {
+    name: "Github Pages Portfolio",
+    tech: ["HTML", "CSS"],
+    description: "Built a personal website using classic web technologies."
+  },
+
+  {
+    name: "Troy Tracjer",
+    tech: ["Node.js", "React", "Tailwind", "Vite","Shadcn UI", "Django", "Meta API"],
+    description: "A back end a front end project that uses the Meta API to create a community calendar. Automatically retrieves and parses caption in posts that tag or mention a specific instagram account and add them to a community calendar.Built a personal website using modern web technologies."
   }
 ]
 
