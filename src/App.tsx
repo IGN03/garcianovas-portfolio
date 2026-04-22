@@ -3,6 +3,10 @@ import { Menubar, MenubarMenu, MenubarTrigger } from "@/components/ui/menubar"
 import Resume from "./pages/Resume"
 import Spotify from "./pages/Spotify"
 
+
+
+
+
 function Landing() {
   return (
     <div className="p-6 md:p-12 animate-in fade-in duration-500">
@@ -42,6 +46,27 @@ export default function App() {
             <MenubarMenu>
               <Link to="/spotify"><MenubarTrigger className="cursor-pointer hover:text-lime-400">/spotify</MenubarTrigger></Link>
             </MenubarMenu>
+            <MenubarMenu>
+              <a href="https://ign03.github.io" rel="noopener noreferrer">
+                <MenubarTrigger className="cursor-pointer hover:text-lime-400">/ign03.github.io</MenubarTrigger>
+              </a>
+            </MenubarMenu>
+            <MenubarMenu>
+              <a href="https://www.linkedin.com/in/ignacio-garcia-novas-167193255/" rel="noopener noreferrer">
+                <MenubarTrigger className="cursor-pointer hover:text-lime-400">/linkedin</MenubarTrigger>
+              </a>
+            </MenubarMenu>
+            <MenubarMenu>
+              <a href="https://github.com/IGN03" rel="noopener noreferrer">
+                <MenubarTrigger className="cursor-pointer hover:text-lime-400">/github</MenubarTrigger>
+              </a>
+            </MenubarMenu>
+            <MenubarMenu>
+            <a href="contact.vcf" download="contact.vcf">
+                <MenubarTrigger className="cursor-pointer hover:text-lime-400">/contact.vcf</MenubarTrigger>
+              </a>
+            </MenubarMenu>
+
           </Menubar>
         </div>
 
