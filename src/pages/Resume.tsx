@@ -56,7 +56,7 @@ const PROJECTS_DATA = [
   },
 
   {
-    name: "Troy Tracjer",
+    name: "Troy Tracker",
     tech: ["Node.js", "React", "Tailwind", "Vite","Shadcn UI", "Django", "Meta API"],
     description: "A back end a front end project that uses the Meta API to create a community calendar. Automatically retrieves and parses caption in posts that tag or mention a specific instagram account and add them to a community calendar.Built a personal website using modern web technologies."
   }
