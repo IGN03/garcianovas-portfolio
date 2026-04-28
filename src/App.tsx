@@ -1,5 +1,5 @@
 import { HashRouter as Router, Routes, Route, Link } from "react-router-dom"
-import { Menubar, MenubarMenu, MenubarTrigger } from "@/components/ui/menubar"
+import { Menubar, MenubarMenu, MenubarTrigger, MenubarContent, MenubarItem } from "@/components/ui/menubar"
 import Resume from "./pages/Resume"
 import Spotify from "./pages/Spotify"
 
@@ -47,19 +47,24 @@ export default function App() {
               <Link to="/spotify"><MenubarTrigger className="cursor-pointer hover:text-lime-400">/spotify</MenubarTrigger></Link>
             </MenubarMenu>
             <MenubarMenu>
-              <a href="https://ign03.github.io" rel="noopener noreferrer">
-                <MenubarTrigger className="cursor-pointer hover:text-lime-400">/ign03.github.io</MenubarTrigger>
-              </a>
-            </MenubarMenu>
-            <MenubarMenu>
-              <a href="https://www.linkedin.com/in/ignacio-garcia-novas-167193255/" rel="noopener noreferrer">
-                <MenubarTrigger className="cursor-pointer hover:text-lime-400">/linkedin</MenubarTrigger>
-              </a>
-            </MenubarMenu>
-            <MenubarMenu>
-              <a href="https://github.com/IGN03" rel="noopener noreferrer">
-                <MenubarTrigger className="cursor-pointer hover:text-lime-400">/github</MenubarTrigger>
-              </a>
+              <MenubarTrigger className="cursor-pointer hover:text-lime-400">/socials</MenubarTrigger>
+              <MenubarContent className="bg-neutral-900 border-neutral-800 text-neutral-300">
+                <MenubarItem className="hover:text-lime-400 focus:bg-neutral-800 focus:text-lime-400">
+                  <a href="https://ign03.github.io" target="_blank" rel="noopener noreferrer" className="w-full">
+                    /ign03.github.io
+                  </a>
+                </MenubarItem>
+                <MenubarItem className="hover:text-lime-400 focus:bg-neutral-800 focus:text-lime-400">
+                  <a href="https://www.linkedin.com/in/ignacio-garcia-novas-167193255/" target="_blank" rel="noopener noreferrer" className="w-full">
+                    /linkedin
+                  </a>
+                </MenubarItem>
+                <MenubarItem className="hover:text-lime-400 focus:bg-neutral-800 focus:text-lime-400">
+                  <a href="https://github.com/IGN03" target="_blank" rel="noopener noreferrer" className="w-full">
+                    /github
+                  </a>
+                </MenubarItem>
+              </MenubarContent>
             </MenubarMenu>
             <MenubarMenu>
             <a href="contact.vcf" download="contact.vcf">
